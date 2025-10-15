@@ -4,21 +4,27 @@ public class IceCream {
   private String size;
   private double price;
 
-//No argument constructor
+/*
+*
+*/No argument constructor
   public IceCream(){
   this.flavor = "Vanilla";
   this.size = "Large";
   this.price = 7.99;
   }
 
-//Parameritized Constructor
+/*
+*
+*/Parameritized Constructor
   public IceCream(String flavor, String size, double price){
     this.flavor=flavor;
     this.size=size;
     this.price=price;
   }
 
-  //Accessor Methods
+  /*
+  *
+  */Accessor Methods
   public String getFlavor(){
     return flavor;
   }
@@ -31,7 +37,9 @@ public class IceCream {
     return price;
   }
 
-  //toString method
+  /*
+  *
+  */toString method
   public String toString() {
   return "Flavor: " + flavor + ", Size: " + size + ", Price: $" + price;
 }

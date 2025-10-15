@@ -5,12 +5,15 @@ public class StoreRunner {
 
     Scanner input = new Scanner(System.in);
 
-    // Create objects
+    /*
+    *
+    */ Create objects
     IceCream base = new IceCream("Strawberry", "Medium", 5.99);
     Sundaes sundae = new Sundaes("Chocolate", "Large", 8.49, "Sprinkles", true);
     Milkshake shake = new Milkshake("Vanilla", "Small", 6.25, "Extra Thick", false);
 
-    // Print their info
+    /*
+    */ Print their info
     System.out.println("Base Ice Cream: " + base);
     System.out.println("Sundae: " + sundae);
     System.out.println("Milkshake: " + shake);
